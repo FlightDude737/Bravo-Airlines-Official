@@ -63,6 +63,7 @@
         animation: leftTop 0.3s forwards;
       }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
     <link rel='icon' href='https://docs.google.com/drawings/d/e/2PACX-1vRIGxpYC-BdTtzrBuji6Zaaxr5gD1swGsM_VBvdOZLEUaNNaUXD0sOk_YoyAZaSqlGcent5-9QIA9gO/pub?w=99&h=102' type='image'/ >
@@ -78,7 +79,7 @@
       <a id="homeLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; border: 1px solid white; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 150px; text-decoration: none;" href="#header" onclick="scrollToView('homeLocator')" data-offset="50">HOME</a>
       <a id="aboutLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 240px; text-decoration: none;" href="#about" onclick="scrollToView('aboutLocator')">ABOUT</a>
       <a id="flightsLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 335px; text-decoration: none;" href="#flights" onclick="scrollToView('flightsLocator')">FLIGHTS</a>
-        <a id="destinationsLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 440px; text-decoration: none;" href="#flights" onclick="alert('This area of our website is still under construction. Stay tuned for updates!')">DESTINATIONS</a>
+      <a id="destinationsLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 440px; text-decoration: none;" href="#destinations" onclick="scrollToView('destinationsLocator')">DESTINATIONS</a>
       <a id="contactLocator" style="letter-spacing: 4px; margin: 0px; border: none;background-color: transparent; padding: 5px; padding-left: 10px; padding-right: 10px; color: white; font-family: roboto; font-size: 10px; margin: none;vertical-align: middle; position: absolute; top: 50%; margin-top: -10px; left: 590px; text-decoration: none;" href="#contact" onclick="scrollToView('contactLocator')">CONTACT</a>
     </div>
     <div id="header" style="width: 100vw; height: 100vh; background-image: url(https://docs.google.com/drawings/d/e/2PACX-1vQNPfJAiXQggdHHSQIEjGnv7x-c1qrxslIgQie8yOaIT8AAHnzAFr1JCkIaucK6bmDIXGepKbBgzMXP/pub?w=2881&h=1578); background-size: cover; position: relative;">
@@ -115,6 +116,24 @@
         </center>
       </div>
     </div>
+    <div id="destinations" style="width: 100vw; height: 500px; background-color: white; position: relative;">
+      <div style="text-align: center; width: 100vw; height: 500px; position: absolute; top: 50%; margin-top: -250px; left: 50%; margin-left: -50vw;">
+        <div style="width: 50%; height: 100%; background-image: url(destinations/huntsville/huntsville.jpg); background-size: cover; float: left;"></div><!--
+        --><div style="width: calc(50% - 100px); height: 100%; background-size: cover; float: right; padding: 30px; padding-right: 50px; text-align: left;">
+          <p style="font-family: roboto; font-size: 20px; color: #588FE8;">BRAVO DESTINATIONS</p>
+          <h1 style="font-family: Montserrat; margin-bottom: 0px;">Huntsville, Alabama</h1>
+          <p style="font-family: roboto; font-size: 20px;">Huntsville, Alabama is Bravo Airlines' main hub for interconnecting flights. Huntsville is known for it's beautiful scenery and space related experiences. It even offers an incredible space camp for young engineers and innovators. Check out Huntsville, Alabama for your next vacation!</p>
+          <div style="width: 400px; height: 93px; border-radius: 10px; background-color: white; box-shadow: 0 0 3px rgba(0, 0, 0, 0.4); position: relative;">
+            <img src="destinations/huntsville/spacecamp.png" style="width: 40px; float: left; margin: 20px;">
+            <div style="width: 80%; height: 100%; float: right;">
+              <h1 style="font-family: Montserrat; font-size: 14px; margin-bottom: 0px;">Check Out Our Spacecamp Adventure!</h1>
+              <p style="font-size: 14px; font-family: open sans; margin-top: 0px;">Bravo Airlines now offers an Adventure to Spacecamp in Huntsville, Alabama! Check this out at our adventures page.</p>
+            </div>
+            <button style="border: 2px solid black; background-color: white; font-family: roboto; width: 270px; padding: 10px; margin-top: 20px;">LEARN MORE ABOUT HUNTSVILLE</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="contact" style="width: 100vw; height: 500px; background-color: #588FE8; position: relative;">
       <center>
       <div style="position: absolute; top: 50%; margin-top: -202.5px; width: 310px; height: 345px; left: 50%; margin-left: -155px;">
@@ -123,7 +142,7 @@
           <input name="Full Name" placeholder="Full Name" style="width: 300px; height: 40px; border: 1px solid white; background-color: white; margin-bottom: 20px; padding-left: 20px; font-family: roboto;">
           <input name="Email Address" placeholder="Email" type="email" style="width: 300px; height: 40px; border: 1px solid white; background-color: white; margin-bottom: 20px; padding-left: 20px; font-family: roboto; ">
           <input name="Comment" placeholder="Comment" style="width: 300px;height: 150px; border: 1px solid white; background-color: white;padding: 0px; padding-left: 20px; line-height: 10px; font-family: roboto;">
-          <button style="color: black; font-family: roboto;letter-spacing: 4px; padding: 7px; background-color: white; border: none; padding-left: 30px; padding-right: 30px;margin-top: 20px;">SUBMIT</button>
+          <button style="color: black; font-family: roboto;letter-spacing: 4px; padding: 7px; background-color: white; border: none; padding-left: 30px; padding-right: 30px; margin-top: 20px;">SUBMIT</button>
         </form>
       </div>
       <button style="width: 100vw; height: 35px; background-color: white; color: black; position: absolute; bottom: 0px; left: 50%; margin-left: -50vw; font-family: roboto; font-size: 15px; border: none;" onclick="alert('Bravo Airlines ©Copyright@2017. All rights reserved. Bravo Airlines does not currenly own any aircraft. We are sorry for any inconvenience.')">VIEW DISCLAIMER</button>
